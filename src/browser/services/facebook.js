@@ -3,9 +3,9 @@ var facebookService = {};
 
 var fbPromise = Q.Promise(function(resolve) {
     window.fbAsyncInit = function() {
-        console.log('Facebook App Id:', __FBAPPID__)
+        console.log('Facebook App Id:', 1073594986038275)
         window.FB.init({
-            appId: __FBAPPID__,
+            appId: 1073594986038275,
             xfbml: true,
             cookie: true,
             version: 'v2.5'
